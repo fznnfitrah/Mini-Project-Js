@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keys {
+    border: 2px solid black;
+
+    display: flex;
+    
+}
+
+.key {
+    border: 2px solid black;
+
+    margin: 10px;
+    padding: 10px;
+}
+
+.playing {
+    background-color: red;
+}
+
+kbd {
+    border: 2px solid black;
+
+    font-size: large;
+    display: block;
+    text-align: center;
+    font-style: italic;
+}
+
+span {
+    border: 2px solid black;
+}
