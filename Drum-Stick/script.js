@@ -5,9 +5,13 @@ document.addEventListener("keydown", (e)=>{
     const codeKey = `div.key[data-key="${pressKey}"]`;
     const matchKey = document.querySelector(codeKey);
 
+    const getMusic = matchKey.querySelector("audio");
+    
     if( matchKey ) {
         matchKey.classList.add("playing")
-    } else {
+        getMusic.currentTime = 0;
+        getMusic.play();
+    } else {    
         console.log(`Key bukan ${pressKey}`)
     }
 
@@ -16,6 +20,7 @@ document.addEventListener("keydown", (e)=>{
 document.addEventListener("keyup", (e)=>{
     const pressKey = e.keyCode;
     const codeKey = `div.key[data-key="${pressKey}"]`;
+    
     const matchKey = document.querySelector(codeKey);
 
     if( matchKey ) {
