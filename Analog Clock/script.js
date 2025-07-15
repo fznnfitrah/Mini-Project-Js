@@ -13,8 +13,3 @@ const myClock = setInterval ( () => {
     hours.style.transform =  `translateY(-100%) rotate(${hour*6}deg)`;
 
 }, 1000);
-
-// const myMinute = setInterval ( () => {
-//     let now = new Date();
-
-// }, 1000);
