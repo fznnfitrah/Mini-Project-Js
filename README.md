@@ -25,9 +25,3 @@ Kumpulan mini project menggunakan **HTML**, **CSS**, dan **JavaScript**. Cocok u
 ## 🤝 Kontribusi
 
 Pull request dan feedback sangat diterima! Silakan fork repository ini dan kirimkan PR kamu.
-
----
-
-## 📄 Lisensi
-
-Proyek ini menggunakan lisensi [MIT](LICENSE).
